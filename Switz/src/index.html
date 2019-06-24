@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>starthtml</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+	<div class="wrap-top">
+		<div class="menu-top">
+			<div class="select">
+				<span class="select__label">Город</span>
+				<img class="select__drop" src="./img/drop-down-arrow.png" alt="Drop icon">
+				<ul class="select__list">
+					<li class="select__item">
+						<a href="javascript:void(0);" class="select__link">Караганда <br><span class="select__link-label">(702)</span></a>
+					</li>
+					<li class="select__item">
+						<a href="javascript:void(0);" class="select__link">Астана <br><span class="select__link-label">(304)</span></a>
+					</li>
+					<li class="select__item">
+						<a href="javascript:void(0);" class="select__link">Алматы <br><span class="select__link-label">(1022)</span></a>
+					</li>
+					<li class="select__item">
+						<a href="javascript:void(0);" class="select__link">Тараз <br><span class="select__link-label">(3)</span></a>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="menu-top__link">Контакты</a>
+			<a href="#" class="menu-top__link">Помощь</a>
+			<div class="search-field">
+				<div class="sd">
+				<input type="button" class="search-field__btn">
+				<input type="text" class="search-field__text" placeholder="Услуги и салоны">
+			</div>
+			</div>
+			<a href="#" class="menu-top__link border-link">Регистрация</a>
+			<a href="#" class="menu-top__link">Вход</a>
+		</div>
+	</div>
+</header>
+
+<include src="src/parts/hero-screen.html"></include>
+<include src="src/parts/services.html"></include>
+<include src="src/parts/sales.html"></include>
+<include src="src/parts/popular.html"></include>
+<include src="src/parts/masters.html"></include>
+
+<footer>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">О нас</a>
+			</li>
+			<li>
+				<a href="#">Контакты</a>
+			</li>
+			<li>
+				<a href="#">Партнерам</a>
+			</li>
+			<li>
+				<a href="#">Бесплатное приложение:</a>
+				<a href="#">
+					<img src="./img/android.png" alt="Android" class="footer-icon">
+				</a>
+				<a href="#">
+					<img src="./img/apple.png" alt="Apple">
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="footer-right-block">
+		<div class="footer__address">
+			<img src="./img/placeholder.png" alt="Placeholder">
+			<p>Караганда, ул. Новоселов 190</p>
+		</div>
+		<img src="./img/footer-logo.png" alt="Logo">
+		<p class="footer__copyright">
+			© Gexabyte 2018-2019<br>
+			Все права защищены
+		</p>
+	</div>
+</footer>
+<include src="src/parts/scripts.html"></include>
+</body>
+</html>
